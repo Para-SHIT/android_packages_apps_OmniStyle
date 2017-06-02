@@ -27,23 +27,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
     <application
         android:allowBackup="false"
-        android:label="OmniStyle"
-        android:icon="@drawable/omnirom_logo" >
+        android:label="DaylightHeader"
+        android:icon="@mipmap/ic_launcher" >
         <activity
             android:name=".BrowseHeaderActivity"
             android:label="@string/browse_header"
             android:theme="@android:style/Theme.Material.Settings" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".weather_color"
-            android:label="LockClock (color)" >
-            <intent-filter>
-                <action android:name="org.omnirom.WeatherIconPack" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
